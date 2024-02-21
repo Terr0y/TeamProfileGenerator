@@ -1,0 +1,36 @@
+{
+  "name": "week-12-challenge-sample",
+  "version": "1.0.0",
+  "description": "Team Profile Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terr0y/TeamProfileGenerator.git"
+  },
+  "keywords": [
+    "team",
+    "profile",
+    "generator",
+    "nodejs",
+    "inquirer",
+    "jest",
+    "html",
+    "command",
+    "line"
+  ],
+  "author": "Ola Terry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Terr0y/TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/Terr0y/TeamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
