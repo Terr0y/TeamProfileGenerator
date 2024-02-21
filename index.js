@@ -100,16 +100,6 @@ async function gatherTeamInformation() {
   return teamMembers;
 }
 
-// function writeHtmlToFile(htmlContent) {
-//   fs.writeFile(outputPath, htmlContent, (err) => {
-//     if (err) {
-//       console.error("Error writing HTML to file:", err);
-//     } else {
-//       console.log("Team profile successfully generated!");
-//     }
-//   });
-// }
-
 function writeHtmlToFile(htmlContent) {
   // Check if the directory exists
   if (!fs.existsSync(OUTPUT_DIR)) {
