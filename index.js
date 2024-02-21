@@ -100,7 +100,6 @@ async function gatherTeamInformation() {
   return teamMembers;
 }
 
-// Function to write HTML content to file
 // function writeHtmlToFile(htmlContent) {
 //   fs.writeFile(outputPath, htmlContent, (err) => {
 //     if (err) {
